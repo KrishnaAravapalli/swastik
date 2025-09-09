@@ -1,6 +1,5 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-<<<<<<< HEAD
   darkMode: ["class"], // allow dark mode with class="dark"
   content: [
     "./app/**/*.{js,ts,jsx,tsx}",
@@ -27,34 +26,9 @@ module.exports = {
         "star-movement-top": {
           "0%": { transform: "translate(0%, 0%)", opacity: "1" },
           "100%": { transform: "translate(100%, 0%)", opacity: "0" },
-=======
-  content: [
-    "./app/**/*.{js,ts,jsx,tsx}",
-    "./pages/**/*.{js,ts,jsx,tsx}",
-    "./components/**/*.{js,ts,jsx,tsx}"
-  ],
-  theme: {
-    extend: {
-      animation: {
-        'star-movement-bottom': 'star-movement-bottom linear infinite alternate',
-        'star-movement-top': 'star-movement-top linear infinite alternate',
-      },
-      keyframes: {
-        'star-movement-bottom': {
-          '0%': { transform: 'translate(0%, 0%)', opacity: '1' },
-          '100%': { transform: 'translate(-100%, 0%)', opacity: '0' },
         },
-        'star-movement-top': {
-          '0%': { transform: 'translate(0%, 0%)', opacity: '1' },
-          '100%': { transform: 'translate(100%, 0%)', opacity: '0' },
->>>>>>> 8af299f0e1e727df10372a1ec654e309c3a9ca4b
-        },
-      },
+      },  
     },
   },
   plugins: [],
-<<<<<<< HEAD
 };
-=======
-}
->>>>>>> 8af299f0e1e727df10372a1ec654e309c3a9ca4b

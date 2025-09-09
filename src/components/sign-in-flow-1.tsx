@@ -903,7 +903,7 @@ function MiniNavbar() {
       onClick={openLoginModal}
       variant="outline"
       size="sm"
-      className="border-[#333] bg-[rgba(31,31,31,0.62)] text-gray-300 hover:border-white/50 hover:text-white hover:bg-transparent"
+      className="border-[#333] bg-[rgba(31,31,31,0.62)] text-gray-300 hover:border-white/50 hover:text-white hover:bg-transparent rounded-2xl"
     >
       Login
     </Button>
@@ -920,7 +920,7 @@ function MiniNavbar() {
        <Button 
          onClick={openSignupModal}
          size="sm"
-         className="relative z-10 font-semibold text-black bg-gradient-to-br from-gray-100 to-gray-300 hover:from-gray-200 hover:to-gray-400 w-full sm:w-auto"
+         className="relative z-10 font-semibold text-black bg-gradient-to-br from-gray-100 to-gray-300 hover:from-gray-200 hover:to-gray-400 w-full sm:w-auto rounded-2xl"
        >
          Signup
        </Button>
